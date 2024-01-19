@@ -53,7 +53,7 @@ namespace CalcularDesconto
             while (valorAceito == 0)
             {
                 // Solicitar o valor do desconto
-                Console.WriteLine("Informe o valor do desconto: ");
+                Console.WriteLine("Informe o valor do desconto ou zero para continuar");
                 percentualDesconto = decimal.Parse(Console.ReadLine());
 
                 // Verificar condições do desconto
